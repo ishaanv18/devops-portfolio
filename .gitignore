@@ -1,0 +1,42 @@
+# Java
+*.class
+*.jar
+*.war
+*.ear
+target/
+*.log
+.mvn/
+mvnw
+mvnw.cmd
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+.env
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform.lock.hcl
+
+# IDE - Keep workspace files for proper configuration
+.idea/
+*.iml
+*.swp
+*.swo
+.DS_Store
+
+# Kubernetes
+*.kubeconfig
+
+# Docker
+.dockerignore
+
+# Logs
+logs/
+*.log
